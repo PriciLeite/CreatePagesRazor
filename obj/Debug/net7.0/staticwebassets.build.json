@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "lbvPEElYPITgigfWZF8Lpw6pmK3shGOqej6VR4Vs6nI=",
+  "Source": "MyRazorApp",
+  "BasePath": "_content/MyRazorApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyRazorApp\\wwwroot",
+      "Source": "MyRazorApp",
+      "ContentRoot": "C:\\Users\\Prici\\source\\ProjetosCsharp\\MyRazorApp\\wwwroot\\",
+      "BasePath": "_content/MyRazorApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
