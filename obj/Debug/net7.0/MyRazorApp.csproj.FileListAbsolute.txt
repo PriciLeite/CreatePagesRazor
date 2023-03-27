@@ -27,3 +27,15 @@ C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\obj\Debug\net7.0\ref\MyRazorApp.
 C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\MyRazorApp.staticwebassets.runtime.json
 C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\obj\Debug\net7.0\MyRazorApp.RazorAssemblyInfo.cache
 C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\obj\Debug\net7.0\MyRazorApp.RazorAssemblyInfo.cs
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Prici\source\ProjetosCsharp\MyRazorApp\obj\Debug\net7.0\MyRazorApp.csproj.CopyComplete

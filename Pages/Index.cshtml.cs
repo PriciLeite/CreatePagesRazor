@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,7 @@ namespace MyRazorApp.Pages
     {       
         public List<Category> Categories { get; set; } = new();
 
+        [HttpGet]
         public async Task OnGet()
         {
             await Task.Delay(5000);
@@ -26,8 +28,8 @@ namespace MyRazorApp.Pages
         }
 
 
-        public record Category(
-            int Id,
+        public record Category(            
+            int Id,            
             string Title,
             decimal Price);
         

@@ -1,19 +1,20 @@
-@page
-@model Index
-
-
 <!DOCTYPE html>
-
+<html>
 <head>   
     <title>My Razor Pages</title>
 </head>
-<body> 
-             
-    <main>
-        
-    </main>
+<body>     
+<header>
+            
+    <partial name="Shared/NavMenuPartial" /> 
 
-        <partial name="Shared/NavMenuPartial" />    
+</header>
+
+<main>
+    @RenderBody()
+</main>
+        
+
     
 </body>
 </html>
