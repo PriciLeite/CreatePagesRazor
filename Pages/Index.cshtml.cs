@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+
 
 namespace MyRazorApp.Pages
 {
@@ -13,7 +9,7 @@ namespace MyRazorApp.Pages
     {       
         public List<Category> Categories { get; set; } = new();
 
-        [HttpGet]
+     
         public async Task OnGet()
         {
             await Task.Delay(5000);
