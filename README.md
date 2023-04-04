@@ -36,3 +36,13 @@ Shared/<br/>
 _Layout.cshtml<br/>
 _ValidationScriptsPartial.cshtml<br/>
 ... (outras Views compartilhadas)
+
+# Entendendo um pouco mais sobre a configuração do código do projeto...
+## Acompanhe:
+- No arquivo Index.cshtml.cs está contido a regra de négocio. 
+- Já no arquivo Index.cshtml é chamado por @Pages a regras de negócio contido em Index.cshtml.cs.
+- Em _ViewImports.cshtml estamos importanto todos os diretórios aos quais são necessários para direcionar Index.cshtml e _Layout.cshtml
+|> que nesse caso também foi criado um diretório Shared para criar o arquivo _Layout.cshtml. Responsável pelo @RenderBody( ) da aplicação.
+
+
+
