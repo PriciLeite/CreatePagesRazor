@@ -39,10 +39,10 @@ _ValidationScriptsPartial.cshtml<br/>
 
 # Entendendo um pouco mais sobre a configuração do código do projeto...
 ## Acompanhe:
-- No arquivo Index.cshtml.cs está contido a regra de négocio. 
-- Já no arquivo Index.cshtml é chamado por @Pages a regras de negócio contido em Index.cshtml.cs.
-- Em _ViewImports.cshtml estamos importanto todos os diretórios aos quais são necessários para direcionar Index.cshtml e _Layout.cshtml
-|> que nesse caso também foi criado um diretório Shared para criar o arquivo _Layout.cshtml. Responsável pelo @RenderBody( ) da aplicação.
-
+- Em Pages temos o arquivo Index.cshtml.cs, onde está contido a regra de négocio. 
+- Ess arquivo Index.cshtml é chamado usando @Pages, a regra de negócio contido em Index.cshtml.cs.
+- Em _ViewImports.cshtml estamos importanto todos os diretórios aos quais são necessários para direcionar Index.cshtml e _Layout.cshtml.
+|> Que nesse caso, também foi criado um diretório Shared que contêm o arquivo _Layout.cshtml. Responsável por rendenizar a aplicação usando @RenderBody( ).
+- Ainda em Shared temos as Partial View, Que por ter sido criada dentro de Shared pode ser usada por todas as Views, desde que na view chame, por exemplo, <partial name="Shared/NavMenuPartial" />.
 
 
